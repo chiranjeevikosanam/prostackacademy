@@ -1,0 +1,17 @@
+let size=[36,38,40,42];
+console.log(size);
+size.push(44);
+console.log(size);
+size.push(46);
+console.log(size);
+size.pop();
+console.log(size);
+size.unshift(34);
+console.log(size);
+size.unshift(32);
+console.log(size);
+size.shift();
+console.log(size);
+console.log(size[2]);
+size[100]=52;
+console.log(size);

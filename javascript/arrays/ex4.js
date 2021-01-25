@@ -1,0 +1,12 @@
+let sizes=[38,40,42,44,46,48];
+console.log(sizes);
+console.log(sizes[sizes.length]);
+console.log(sizes[sizes.length-1]);
+sizes[30]=62;
+console.log(sizes);
+sizes.unshift(36);
+console.log(sizes);
+sizes.unshift(34);
+console.log(sizes);
+sizes.shift();
+console.log(sizes);
