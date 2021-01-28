@@ -1,0 +1,20 @@
+let emps=[
+    {
+        id:1,
+        name:'chiru',
+        email:'chiru@gmail.com',
+        mobile:9010112345
+    },
+    {
+        id:2,
+        name:'raju',
+        email:'raju@gmail.com',
+        mobile:9010101010
+    },
+    {
+        id:3,
+        name:'ramana',
+        email:'ramana@gmail.com',
+        mobile:8012312312
+    }
+]
