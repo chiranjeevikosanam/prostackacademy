@@ -13,3 +13,5 @@ delete emp.number;
 console.log(emp);
 delete emp.info;
 console.log(emp);
+emp.sal=70000;
+console.log(emp);
