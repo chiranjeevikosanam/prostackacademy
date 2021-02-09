@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOM</title>
+</head>
+<body onload="pageload()">
+    <h1>create html element</h1>
+    <select id="name"></select>
+    <button onclick="remove()">remove</button>
+</body>
+<script>
+    function pageload(){
+        let name = document.getElementById("name");
+        let opt = document.createElement("option");
+        opt.text = "bangalore";
+        let opt1 = document.createElement("option1");
+        opt1.text = "vizag";
+        name.appendChild(opt);
+        name.appendChild(opt1);
+        name.style.backgroundColor = "red";
+    }
+    function remove(){
+        let name = document.getElementById("name");
+        name.remove();
+    }
+</script>
+</html>
