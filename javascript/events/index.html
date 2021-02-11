@@ -4,20 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Events</title>
-    <script src="onblur.js"></script>
+    <title>events</title>
+    <script>
+        function click1(){
+            document.getElementById("para1").innerHTML="welcome";
+        }
+        function click2(){
+            document.getElementById("para2").innerHTML="Bangalore";
+        }
+        function click3(){
+            document.getElementById("para3").innerHTML="karnataka";
+        }
+        function click4(){
+            document.getElementById("para4").innerHTML="india";
+        }
+        function focus1(){
+            document.getElementById("para5").innerHTML="full stack";
+        }
+        function blur1(){
+            document.getElementById("para6").innerHTML="this is a blur";
+        }
+        function change1(){
+            document.getElementById("para7").innerHTML="this is a change";
+        }
+        function submit1(){
+            document.getElementById("para8").innerHTML=Date();
+        }
+        function reset1(){
+            document.getElementById("para9").innerHTML="this is a reset";
+        }
+    </script>
 </head>
 <body>
-    <p id="para1">hello</p>
-    <p id="para2">hi</p>
-    <p id="para3">welcome</p>
-    <p id="para4">to</p>
+    <h1>Javascript Events</h1>
+    <p id="para1"></p>
+    <input type="button" value="clickhere" onclick="click1()">
+    <p id="para2"></p>
+    <input type="button" value="dblclickhere" ondblclick="click2()">
+    <p id="para3"></p>
+    <input type="button" value="mouseover" onmouseover="click3()">
+    <p id="para4"></p>
+    <input type="button" value="mouseout" onmouseout="click4()">
     <p id="para5"></p>
-        <button onclick="submit()">on click</button>
-        <button ondblclick="submitt()">on dblclick</button>
-        <button onmouseover="over()" >on mouseover</button>
-        <button onmouseout="out()">on mouseout</button>
-        <input type="text" onfocus="blur()">
+    <input type="text" onfocus="focus1()">
+    <p id="para6"></p>
+    <input type="text" onblur="blur1()">
+    <p id="para7"></p>
+    <input type="text" onchange="change1()">
+    <p id="para8"></p>
+    <form onsubmit="submit1()">
     
+    <input type="button" value="submit">
+    <p id="para9"></p>
+    <input type="reset" value="reset" onreset="reset1()">
+</form>
 </body>
+
 </html>
