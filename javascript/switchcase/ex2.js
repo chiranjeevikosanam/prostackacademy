@@ -1,4 +1,4 @@
-let msg='gm';
+let msg='gz';
 switch(msg){
     case 'gm':
         console.log("good morning");
