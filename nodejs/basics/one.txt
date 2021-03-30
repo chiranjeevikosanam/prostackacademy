@@ -1,0 +1,1 @@
+MEAN is a free and open-source JavaScript software stack for building dynamic web sites and ... Angular (MEAN), React (MERN) and Vue.js (MEVN) are the most popular amongst other web application frameworks used in the stack.
