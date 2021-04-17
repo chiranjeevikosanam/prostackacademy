@@ -1,10 +1,10 @@
 import express from 'express';
 import morgan from 'morgan';
 import chalk from 'chalk';
-/* import dotenv from 'dotenv';
+import dotenv from 'dotenv';
 import fs from 'fs';
-import path from 'path'; */
-import productRouter from './routers/productRouter';
+import path from 'path';
+/* import productRouter from './routers/productRouter';
 import userRouter from './routers/userRouter';
 
 
@@ -28,7 +28,7 @@ app.use("/user", userRouter);
 app.listen(8000,(err)=>{
     if(err) throw err;
     console.log("server running on port no: 8000");
-});
+}); */
 
 
 
@@ -38,7 +38,7 @@ app.listen(8000,(err)=>{
 
 
 
-/* dotenv.config({path: "./config.config.env"});
+dotenv.config({path: "./config.config.env"});
 const app=express();
 app.get('/', (req,res)=>{
     res.send("Hello, This is express server");
@@ -55,4 +55,4 @@ app.get('contacts',(req,res)=>{
 app.listen(process.env.PORT, (err)=>{
     if(err) throw err;
     console.log(`Server is running on Port Number:${process.env.PORT}`);
-}); */
+});
